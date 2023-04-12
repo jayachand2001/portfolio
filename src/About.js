@@ -36,7 +36,7 @@ export default function About() {
               </li>
               <li>
                 <strong>Website:</strong>
-                <span><a href='http://jayachand2001.github.io/' target="_blank" rel='noopener noreferrer'>jayachand2001.github.io</a></span>
+                <span><a href='https://jayachand2001.vercel.app' target="_blank" rel='noopener noreferrer'>jayachand2001.vercel.app</a></span>
               </li>
               <li>
                 <strong>Email:</strong>
