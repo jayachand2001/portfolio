@@ -1,0 +1,122 @@
+.navbar {
+    background-color: #000000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+  .nav-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    max-width: 1500px;
+    padding-left: 100px;
+  }
+  
+  .nav-container a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .nav-container a:hover{
+    color: rgb(0, 183, 255);
+  }
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 100px;
+  }
+  .nav-menu.active{
+    padding-right: 0;
+  }
+  
+  .nav-links {
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    line-height: 40px;
+    margin-right: 1rem;
+  }
+  .nav-item a{
+    text-decoration: none;
+    color:white
+  }
+  .nav-item a:hover{
+    color: rgb(0, 183, 255);
+  }
+  .nav-item:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width 0.7s ease, background-color 0.5s ease;
+  }
+  
+  .nav-item :hover:after {
+    width: 100%
+  }
+  
+  
+  .nav-icon {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .nav-container{
+      padding-left: 0;
+      justify-content: center;
+    }
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      justify-content: center;
+      top: 60px;
+      visibility: hidden;
+      opacity: 1;
+    }
+  
+    .nav-menu.active {
+      background: #000000;
+      left: 0px;
+      opacity: 1;
+      width: 89%;
+      visibility: visible;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+    .nav-item .active {
+      border: none;
+    }
+    .nav-links {
+      padding: 1.5rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .nav-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 30%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+    .nav-icon i{
+      color: white;
+    }
+  }

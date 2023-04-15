@@ -1,0 +1,27 @@
+
+#home {
+    background-image: url(../images/backgroundimage.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+  }
+  
+  .homeinfo {
+    padding-top: 300px;
+  }
+  
+  #home h2 {
+    color: rgb(0, 183, 255);
+    text-align: center;
+  }
+  
+  #home h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+  
+  #home h3 {
+    text-align: center;
+    color: white;
+  }

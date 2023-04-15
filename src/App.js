@@ -1,11 +1,11 @@
 import React  from 'react';
-import Navbar from './Navbar';
-import Home from './Home';
-import About from './About';
-import Education from './Education';
-import Services from './Services';
-import Contact from './Contact';
-import Projects from './Projects';
+import Navbar from './components/Navbar.js';
+import Home from './components/Home.js';
+import About from './components/About.js';
+import Education from './components/Education.js';
+import Services from './components/Services.js';
+import Contact from './components/Contact.js';
+import Projects from './components/Projects.js';
 
 function App() {
   return (

@@ -1,0 +1,114 @@
+.headings {
+  text-align: center;
+  color: rgb(0, 183, 255);
+}
+
+.sub-heading {
+  text-align: center;
+}
+
+#contact {
+  background-color: #151515;
+  box-sizing: border-box;
+}
+
+.contact-intro {
+  padding-top: 100px;
+}
+
+.contact-info::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 33%;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .location {
+    float: none;
+    width: 100%;
+  }
+
+  .email {
+    float: none;
+    width: 100%;
+  }
+
+  .phone {
+    float: none;
+    width: 100%;
+  }
+}
+
+.location .fa-map-location-dot {
+  color: white;
+}
+
+.email .fa-envelope {
+  color: white;
+}
+
+.phone .fa-phone {
+  color: white;
+}
+
+.location h3 {
+  color: rgb(0, 183, 255);
+}
+
+.email h3 {
+  color: rgb(0, 183, 255);
+}
+
+.phone h3 {
+  color: rgb(0, 183, 255);
+}
+
+.location p {
+  font-weight: bold;
+}
+
+.email p {
+  font-weight: bold;
+}
+
+.phone p {
+  font-weight: bold;
+}
+
+.socialmedia {
+  text-align: center;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  font-weight: bold;
+  text-align: center;
+}

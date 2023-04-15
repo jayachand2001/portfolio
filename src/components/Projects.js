@@ -1,8 +1,9 @@
 import React from 'react'
-import dumbopic from './images/dumbo.png'
-import helkapic from './images/helka.png'
-import sketchtofacepic from './images/Female sketch to face.png'
+import dumbopic from '../images/dumbo.png'
+import helkapic from '../images/helka.png'
+import sketchtofacepic from '../images/Female sketch to face.png'
 import { useState } from 'react'
+import './Projects.css'
 export default function Projects() {
     const [model1, setmodel1] = useState(false);
 

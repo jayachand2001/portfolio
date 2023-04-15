@@ -1,0 +1,129 @@
+.headings {
+  text-align: center;
+  color: rgb(0, 183, 255);
+}
+
+.sub-heading {
+  text-align: center;
+}
+#education {
+  text-align: center;
+}
+
+#education .edu-intro {
+  padding-top: 100px;
+}
+
+#education .edu-info {
+  position: relative;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#education .edu-data {
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+#education .degree {
+  box-sizing: border-box;
+  position: relative;
+  text-align: right;
+  float: left;
+  width: 40%;
+  padding-right: 75px;
+}
+
+#education .degree h3 {
+  margin-bottom: 0;
+}
+
+#education .degree p {
+  font-size: 16px;
+  color: #888888;
+}
+
+#education .collage-name {
+  box-sizing: border-box;
+  position: relative;
+  width: 40%;
+  text-align: left;
+  padding-left: 75px;
+}
+
+#education .collage-name h4 {
+  position: relative;
+}
+
+#education .collage-name p {
+  font-size: 16px;
+  color: #888888;
+}
+
+#education .collage-name h4::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+#education .edu-info::before {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: black;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+#education .briefcase-icon {
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  background: #313131;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+}
+
+#education .fa-briefcase {
+  color: white;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  #education .briefcase-icon {
+    left: -25px;
+  }
+  #education .edu-info::before {
+    width: 1px;
+    left: 0px;
+  }
+  #education .edu-data {
+    width: 100%;
+    display: table;
+    flex-direction: row;
+  }
+  #education .degree {
+    flex: none;
+    width: 100%;
+    text-align: left;
+    padding-left: 75px;
+  }
+
+  #education .collage-name {
+    flex: none;
+    width: 100%;
+    text-align: left;
+  }
+}
